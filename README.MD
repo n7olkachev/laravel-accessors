@@ -48,7 +48,8 @@ $ composer require n7olkachev/laravel-accessors
 
 In your class:
 ```php
-class User {
+class User
+{
     use Accessors;
 }
 ```

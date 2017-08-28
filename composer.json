@@ -1,0 +1,40 @@
+{
+  "name": "n7olkachev/laravel-accessors",
+  "description": "Use Laravel-like accessors in your classes",
+  "homepage": "https://github.com/n7olkachev/laravel-accessors",
+  "keywords":
+  [
+    "websecret",
+    "laravel",
+    "accessors",
+    "php"
+  ],
+  "authors": [
+    {
+      "name": "Nikita Tolkachev",
+      "email": "n7olkachev@gmail.com",
+      "homepage": "https://n7olkachev.github.io",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php" : "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "N7olkachev\\LaravelAccessors\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "N7olkachev\\LaravelAccessors\\Test\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "license": "MIT"
+}

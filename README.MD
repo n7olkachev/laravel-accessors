@@ -8,7 +8,7 @@
 [![Licence](https://img.shields.io/packagist/l/n7olkachev/laravel-accessors.svg?style=flat-square)](https://packagist.org/packages/n7olkachev/laravel-accessors)
 [![Build Status](https://travis-ci.org/n7olkachev/laravel-accessors.svg?branch=master)](https://travis-ci.org/n7olkachev/laravel-accessors)
 
-This package gives you ability to use `getFooBarAttribute` and `setFooBarAttribute` methods in your classes with one small trait.
+This package gives you ability to use `getFooBarAttribute` and `setFooBarAttribute` methods in your classes with one trait.
 
 ## Examples
 
